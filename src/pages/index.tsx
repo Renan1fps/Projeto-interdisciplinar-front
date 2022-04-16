@@ -19,9 +19,7 @@ export default function Home({ product }: HomeProps) {
       </Head>
       <main className={style.contentContainer}>
         <section className={style.hero}>
-          <span>👋 Olá, Seja bem vindo!</span>
-          <h1>Notícias <span>da sua preferência</span></h1>
-          <SubscribeButton priceId={product.priceId}/>
+          <h1>Bem vindo novamente, <span>Renan! 👋</span></h1>
         </section>
         <img src='/images/logoV2.png' alt='Logo' width='800px' />
       </main>
