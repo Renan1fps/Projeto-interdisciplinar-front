@@ -22,6 +22,7 @@ export default function Home({ product }: HomeProps) {
           <h1>Bem vindo novamente, <span>Renan! 👋</span></h1>
         </section>
         <img src='/images/logoV2.png' alt='Logo' width='800px' />
+        Todo: aparecer um botão para um user root para que possa fazer o cadastro
       </main>
     </>
   )
